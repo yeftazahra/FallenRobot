@@ -1,0 +1,17 @@
+version:"3.10"
+services:
+  worker:
+    build: .
+    environment:
+      - API_ID=$API_ID
+      - API_HASH=$API_HASH
+      - TOKEN=$TOKEN
+      - OWNER_ID=$OWNER_ID
+      - OWNER_USERNAME=$OWNER_USERNAME
+      - SUPPORT_CHAT=$SUPPORT_CHAT
+      - JOIN_LOGGER=$JOIN_LOGGER
+      - EVENT_LOGS=$EVENT_LOGS
+      - WOLVES=$WOLVES
+      - TIGERS=$TIGERS
+      - DEL_CMDS=$DEL_CMDS
+      - TIME_API_KEY=$TIME_API_KEY
